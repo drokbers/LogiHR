@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "432258006874",
+    "project_id": "logihr-bfbcd",
+    "storage_bucket": "logihr-bfbcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432258006874:android:e2d9c391fc8deafe1a3d63",
+        "android_client_info": {
+          "package_name": "com.example.logiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432258006874-t9q91mfujjq18hv4qnfieo7nslpspom7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZPcJXJNSKwHMqE_LDsL0CDgENeCEIrY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432258006874-t9q91mfujjq18hv4qnfieo7nslpspom7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
