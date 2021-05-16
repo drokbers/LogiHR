@@ -1,19 +1,20 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/foundation.dart';
 
 class UserModel {
-  String id;
-  String name;
-  String profilePicture;
-  String email;
-  List interests;
-  String reportsTo;
-  String badges;
-  String attendeEvents;
-  String city;
-  String phoneNumber;
-  String position;
-  String department;
-  String coverImage;
+  final String id;
+  final String name;
+  final String profilePicture;
+  final String email;
+  final List interests;
+  final String reportsTo;
+  final String badges;
+  final String attendeEvents;
+  final String city;
+  final String phoneNumber;
+  final String position;
+  final String department;
+  final String coverImage;
 
   UserModel(
       {this.id,
@@ -30,7 +31,7 @@ class UserModel {
       this.department,
       this.coverImage});
 
-  factory UserModel.fromDoc(DocumentSnapshot doc) {
+  factory UserModel.fromDocument(DocumentSnapshot doc) {
     return UserModel(
       id: doc.id,
       name: doc['name'],

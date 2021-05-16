@@ -21,8 +21,10 @@ class _FeedScreenState extends State<FeedScreen> {
     return Scaffold(
       body: [
         HomeScreen(),
-        SearchScreen(),
-        NotificationsScreen(),
+        SearchScreen(
+          
+        ),
+        NotificationsScreen(''),
         ProfilScreen(
           currentUserId: widget.currentUserId,
           visitedUserId: widget.currentUserId,
@@ -45,8 +47,6 @@ class _FeedScreenState extends State<FeedScreen> {
           //BottomNavigationBarItem(icon: Icon(Icons.home),label:'home'),
         ],
       ),
-    
     );
-    
   }
 }
