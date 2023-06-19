@@ -37,10 +37,6 @@ We aim for a more equal and democratic formation with the knowledge of knowledge
 **Server:** Firebase
 
 
-  
-## Appendix
-
-Herhangi bir ek bilgi buraya gelir
 
   The project started as a start-up. With the largest corporate companies in Turkey, the project and their communication with their institutional communications have been made to collect data. Finally, the application has started to be developed. However, due to our priorities, the project has been halfway. For now, only a few pages of the application are built.
   
